@@ -1,0 +1,226 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B8A4DCC2-9F8C-43BB-9D16-020F648F7620}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Clientapp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\ClientChat.dll" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\ClientChat.exe" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\ClientChat.pdb" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\angry.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\baby.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\crying.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\fb-heart.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\fb-like.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\kiss-love.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\laugh-crying.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\link.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\love-icon.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\poop.png" />
+    <Content Include="ClientChat\bin\Debug\net6.0-windows\emoji\shock.png" />
+    <Content Include="ClientChat\ClientChat.csproj.user" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\apphost.exe" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.csproj.FileListAbsolute.txt" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.dll" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.pdb" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\refint\ClientChat.dll" />
+    <Content Include="ClientChat\obj\Debug\net6.0-windows\ref\ClientChat.dll" />
+    <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\0a\d25db4bd1d86c452db3f9602ccdbe172438f52" />
+    <None Include=".git\objects\11\912b36c9a5e3eee46c61ec7eb3c8a8ce365675" />
+    <None Include=".git\objects\14\39daa9d6621a3604b363ef543a3c4cfb1d5829" />
+    <None Include=".git\objects\18\fdf370b9196a0ba57b4418a269fa5d5d91049c" />
+    <None Include=".git\objects\1a\f7de150c99c12dd67a509fe57c10d63e4eeb04" />
+    <None Include=".git\objects\1d\8866a08ee03820e0be52490deed0e757ce75b4" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\21\a803a5b43ba6fe3ead376922a6727be4d0d960" />
+    <None Include=".git\objects\23\4a583ea97f5c7c1bad2381de861c74c37ff35e" />
+    <None Include=".git\objects\2e\51cf72b38dbf042615920735bd3327b6af052e" />
+    <None Include=".git\objects\40\29ec5e83f34088223be847ec5c8b6968d03271" />
+    <None Include=".git\objects\47\de028e58a3a8aeddc6d7294339f503a23b4c04" />
+    <None Include=".git\objects\48\0e19a475c5b44f5529efdb319a0aaec9889cd6" />
+    <None Include=".git\objects\48\c0c845a706c7fd417346bd697bad92bec03b07" />
+    <None Include=".git\objects\4c\8c05ea7d9672f7911e4de1de4c646ff9be240e" />
+    <None Include=".git\objects\4e\c2b3e6e79b1a315a88db1f10b9bd26c43ac1aa" />
+    <None Include=".git\objects\51\2153f0f0bb08c8ffcd26f38cd70e3a5620e310" />
+    <None Include=".git\objects\57\e1961653bfe2c2c856273857eb9444c9fa33fe" />
+    <None Include=".git\objects\5b\54e9cedc9f66977fd76c5aeb3b8ff72feefa74" />
+    <None Include=".git\objects\80\ef728c33d84e4cc2b92428d1c1b7905b9466cd" />
+    <None Include=".git\objects\84\926fd3917ab333e1bdbb90651642e4ee206f1e" />
+    <None Include=".git\objects\8d\44b116f865ebac18340a324026804495eec669" />
+    <None Include=".git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include=".git\objects\9a\4d6a0b924aff12c77b08a774be9950be723e4a" />
+    <None Include=".git\objects\a0\7df155c80f8f75a47ec95f2cd2d1af0ecdd5bf" />
+    <None Include=".git\objects\a6\e3361faaee33fe5e54c829e2a5d91f906b05d8" />
+    <None Include=".git\objects\ae\2fb95d95c14bbe5119b51669f5047f68714e20" />
+    <None Include=".git\objects\b5\7c89e694728abd476f3f4dd7288093c0236683" />
+    <None Include=".git\objects\b8\15fc531fa45829a9a195f1dbd127efec5eb8f7" />
+    <None Include=".git\objects\b9\ddd6fe25ee7149dc198de23d554ab0a29faddf" />
+    <None Include=".git\objects\b9\f3c9fd661962ac3473636f15ca3ead2f937c94" />
+    <None Include=".git\objects\c9\996436f468b2f0d3757b8da9ea6a976204b53c" />
+    <None Include=".git\objects\d1\7f67575ec5085346cf1e78b3f05f20a19d706a" />
+    <None Include=".git\objects\d6\e75bed816bc51fc2b5eb0eabe9e3a9af526e34" />
+    <None Include=".git\objects\e0\d42bcf179709b5736e44286a30034f17a4c794" />
+    <None Include=".git\objects\e3\b3aeb89010b1b81354aa2b9b1258d78bfcaa54" />
+    <None Include=".git\objects\ec\c0d8fdfdd6475121f71a50a41207a0ba3f6677" />
+    <None Include=".git\objects\f2\98a7be80982ebd538a05758a03bc827419d418" />
+    <None Include=".git\objects\f8\98d39518ee56f1b21d1aa3b8dbe49b670c504e" />
+    <None Include=".git\objects\fa\f62b7dac264f461de8a933eaf2d4422b77851a" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\ClientChat\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\ClientChat\FileContentIndex\6ae664c9-2256-4073-844c-c07b8ca6b141.vsidx" />
+    <None Include=".vs\ClientChat\FileContentIndex\a4e752cd-1c91-41f9-ba2d-3c832ae36fca.vsidx" />
+    <None Include=".vs\ClientChat\FileContentIndex\cf9a6cfd-d57b-40f9-ac96-19c2a4f65a70.vsidx" />
+    <None Include=".vs\ClientChat\FileContentIndex\f63eb48f-e1ba-4757-8aed-c14cee19c0f9.vsidx" />
+    <None Include=".vs\ClientChat\FileContentIndex\read.lock" />
+    <None Include=".vs\ClientChat\v17\.futdcache.v2" />
+    <None Include=".vs\ClientChat\v17\.suo" />
+    <None Include=".vs\ProjectEvaluation\clientchat.metadata.v5.2" />
+    <None Include=".vs\ProjectEvaluation\clientchat.projects.v5.2" />
+    <None Include="app.config" />
+    <None Include="ClientChat\bin\Debug\net6.0-windows\ClientChat.deps.json" />
+    <None Include="ClientChat\bin\Debug\net6.0-windows\ClientChat.runtimeconfig.json" />
+    <None Include="ClientChat\ClientChat.csproj" />
+    <None Include="ClientChat\obj\ClientChat.csproj.nuget.dgspec.json" />
+    <None Include="ClientChat\obj\ClientChat.csproj.nuget.g.props" />
+    <None Include="ClientChat\obj\ClientChat.csproj.nuget.g.targets" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.AssemblyInfoInputs.cache" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.assets.cache" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.csproj.AssemblyReference.cache" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.csproj.BuildWithSkipAnalyzers" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.csproj.CoreCompileInputs.cache" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.csproj.GenerateResource.cache" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.designer.deps.json" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.designer.runtimeconfig.json" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.genruntimeconfig.cache" />
+    <None Include="ClientChat\obj\project.assets.json" />
+    <None Include="ClientChat\obj\project.nuget.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientChat\ChatApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientChat\ChatApp.Designer.cs">
+      <DependentUpon>ChatApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientChat\FileTranfer.cs" />
+    <Compile Include="ClientChat\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientChat\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientChat\Message.cs" />
+    <Compile Include="ClientChat\obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.AssemblyInfo.cs" />
+    <Compile Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.GlobalUsings.g.cs" />
+    <Compile Include="ClientChat\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientChat\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientChat\Program.cs" />
+    <Compile Include="ClientChat\Properties\Resources.Designer.cs" />
+    <Compile Include="ClientChat\RichTextBoxExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClientChat\ChatApp.resx">
+      <DependentUpon>ChatApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientChat\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.ChatApp.resources" />
+    <EmbeddedResource Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.LoginForm.resources" />
+    <EmbeddedResource Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.Profile.resources" />
+    <EmbeddedResource Include="ClientChat\obj\Debug\net6.0-windows\ClientChat.Properties.Resources.resources" />
+    <EmbeddedResource Include="ClientChat\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientChat\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\Clientapp\v17\" />
+    <Folder Include=".vs\ClientChat\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
